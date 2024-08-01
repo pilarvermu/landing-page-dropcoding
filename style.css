@@ -1,0 +1,20 @@
+/*VARIABLES*/
+:root{
+    --main-c:#fdd72d;
+    --border-r:1.2rem;
+}
+
+/** Estilos Generales **/
+html *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size: 1.1rem;
+}
+
+a{
+    
+}
