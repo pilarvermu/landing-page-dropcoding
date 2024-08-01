@@ -142,7 +142,13 @@ h3{
     align-items: center;
     padding: 50px;
     flex-flow: column;
-    
+}
+
+.imgformulario{
+    max-width: 2000px;
+    max-height: 2000px;
+    width: 100%;
+    padding: 1rem;
 }
  
 .wrap-text-column h3{
@@ -179,6 +185,39 @@ input[type="submit"]{
     display: inline;
     cursor: pointer;
 }
+
+/** Footer **/
+.footer-section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-footer-section{
+    padding: 1rem 0;
+}
+
+.wrap-social-logos ul, .wrap-menu-footer-section ul{
+    display: flex;
+    justify-content: center;
+}
+
+.social-logo{
+    max-width: 75px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.wrap-menu-footer-section ul li{
+    font-size: 1.1rem;
+    padding:1.5rem;
+}
+
+.footer-creds{
+    display: flex;
+    justify-content: center;
+}
+
+
 
 
 
