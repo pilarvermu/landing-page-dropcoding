@@ -64,5 +64,40 @@ h3{
 /** Hero Section **/
 .hero-section{
     height: 90vh;
-    background: url();
+    background: url(images/fondo-agencia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(106, 141, 163, 0.7);
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+}
+
+.wrap-hero-section{
+    max-width: 600px;
+    color: #fff;
+    padding: 15%;
+}
+
+/** Logo Brand Section **/
+.section{
+    margin: 5rem 0;
+}
+
+.section h2{
+    padding: 2rem 0;
+}
+
+.wrap-logos-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-brand{
+    width: 200px;
+    padding: 1rem 2rem;
+    filter: grayscale(1);
 }
