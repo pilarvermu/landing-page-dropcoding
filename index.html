@@ -102,6 +102,7 @@
             </div>
         </section>
 
+        <!--2 COLUMNAS-->
         <section class="section two-column-section">
             <div class="wrap-title-section">
                 <h2>Características de nuestros servicios</h2>
@@ -111,18 +112,73 @@
                 <div class="wrap-img-two-column">
                     <img src="images/disenador-trabajando.png" alt="disenador-trabajando">
                 </div>
-            </div>
 
-            <div class="wrap-img-two-column">
-                <div class="wrap-text-column">
-                    <h3>Más Características</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Architecto rem sunt perferendis recusandae earum itaque
-                        eum numquam ex. Ex, nemo ratione? Laboriosam, exercitationem 
-                        numquam quae deleniti sed voluptas provident magnam nulla 
-                        minus perspiciatis velit libero?</p>
+                <div class="wrap-img-two-column">
+                    <div class="wrap-text-column">
+                        <h3>Más Características</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Architecto rem sunt perferendis recusandae earum itaque
+                            eum numquam ex. Ex, nemo ratione? Laboriosam, exercitationem 
+                            numquam quae deleniti sed voluptas provident magnam nulla 
+                            minus perspiciatis velit libero?</p>
+                        <!--CALL TO ACTION-->    
+                        <div class="wrap-cta">
+                            <a href="/" class="cta-a">Llamada a la accion</a>
+                        </div>
+                    </div>
                 </div>
             </div>
+           
+        </section>
+
+        <!--2 COLUMNAS-->
+        <section class="section two-column-section">
+            <div class="wrap-title-section">
+                <h2>Formulario de contacto</h2>
+            </div>
+
+            <div class="wrap-two-column">
+               
+
+                <div class="wrap-img-two-column">
+                    <div class="wrap-text-column">
+                        <h3>Contacta con nosotros</h3>
+
+                        <!--AQUI IRIA UN FORMULARIO DE CONTACTO
+                        QUE SE PUEDE ENCONTRAR EN UNO DE LOS VIDEOS
+                        DE DROPCODING, CUANDO SEPA HACER MAS COSAS
+                        LO METO
+                        
+                        DE HECHO LO METO YA LO BASICO DEL HTML, PERO
+                        ES CONVENIENTE APRENDERLO-->
+
+                        <form action="procesar-formulario.php"
+                        method="post" class="form">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" name="nombre" id="nombre" required="">
+                            <br><br>
+
+                            <label for="asunto">Asunto:</label>
+                            <input type="text" name="asunto" id="asunto" required="">
+                            <br><br>
+
+                            <label for="mensaje">Mensaje:</label>
+                            <br>
+                            <textarea name="mensaje" id="mensaje" rows="4" cols="40" required=""></textarea>
+                            <br><br>
+
+                            <input type="submit" value="Enviar" class="cta-a">
+                        </form>
+
+
+                    </div>
+                </div>
+
+                <div class="wrap-img-two-column">
+                    <img src="images/disenador-trabajando.png" alt="disenador-trabajando">
+                </div>
+            </div>
+           
         </section>
     </body>
 </html>
